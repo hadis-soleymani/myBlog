@@ -1,0 +1,29 @@
+.container {
+  height: 10vh;
+  display: flex;
+  background-color: rgb(68, 67, 112);
+  border-bottom: 1px solid rgba(109, 109, 109, 0.4);
+}
+.item_container {
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+}
+.container p {
+  color: rgb(201, 201, 201);
+  font-family: Vazir;
+  font-size: 1.3rem;
+  line-height: 5vh;
+}
+.container h1 {
+  color: rgb(201, 201, 201);
+  font-family: Vazir;
+  text-align: center;
+  width: 30vw;
+  line-height: 5vh;
+}
+
+.container h1:hover,
+.container p:hover {
+  color: rgb(226, 224, 74);
+}
