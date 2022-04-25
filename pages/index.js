@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/app.module.css'
+import AboutMe from './components/about_me'
 import Home from './components/home'
 import Navbar from './components/navbar'
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       </Head>
 <Navbar/>
      <Home/>
+     <AboutMe/>
     </div>
   )
 }

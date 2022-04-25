@@ -1,0 +1,76 @@
+.container {
+  height: 45vh;
+  display: flex;
+  background-color: rgb(234, 233, 239);
+  flex-direction: column;
+}
+
+.container h1 {
+  color: #42474b;
+  font-family: Vazir;
+  padding-left: 15vw;
+}
+.container img {
+  height: 7vw;
+  width: 7vw;
+  border-radius: 3.5vw;
+}
+.container div {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15vw 0 15vw;
+}
+.container section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(239, 239, 239);
+  width: 60vw;
+  height: 30vh;
+  border-radius: 2vh;
+  box-shadow: 3px 3px 10px #cbced1;
+}
+.container section p {
+  direction: rtl;
+  color: #42474b;
+  font-family: Vazir;
+  font-size: 2.5vh;
+  padding: 1vh;
+  width: 30vw;
+}
+.container section button {
+  color: #f5f7f8;
+  font-family: Vazir;
+  font-size: 2.5vh;
+  width: 10vw;
+  background-color: rgb(239, 72, 92);
+  border-radius: 2vh;
+  border: none;
+}
+.container section button:hover {
+    background-color: rgba(239, 72, 92,0.5);   
+}
+.container section div:nth-child(1) {
+  flex-direction: column;
+  display: flex;
+  width: 30vw;
+  padding-bottom: 3vh;
+}
+.container section div:nth-child(2) {
+ 
+  
+background-color: aqua;
+ display: flex;
+ width: 30vw;height: 30vh;
+ z-index: 100;
+}
+.bar{
+  display: flex;
+  width: 10vw;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  padding: 3vh;
+  height: 10vh;
+}
