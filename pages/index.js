@@ -3,6 +3,8 @@ import styles from '../styles/app.module.css'
 import AboutMe from './components/about_me'
 import Home from './components/home'
 import Navbar from './components/navbar'
+import Services from './components/services'
+
 export default function App() {
   return (
     <div >
@@ -12,8 +14,7 @@ export default function App() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <Navbar/>
-     <Home/>
-     <AboutMe/>
+
     </div>
   )
 }
