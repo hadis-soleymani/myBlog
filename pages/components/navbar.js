@@ -23,10 +23,10 @@ const Ul = styled.ul`
         position:fixed;
         box-shadow: 3px 3px 10px #cbced1;
         transition: all 0.3s linear;
-        transform: ${props => props.open ? 'translateX(-100%)':'translateX(0)' };
-        right:0;
+        transform: ${props => props.open ? 'translateX(0)':'translateX(-100%)' };
+        left:0;
         top:0;
-        padding-top:6vh;
+        padding-top:8vh;
         width:65vw;
         height: 100vh;
 
@@ -36,7 +36,7 @@ const Ul = styled.ul`
 export default function Navbar({open}) {
   return (
     <div className={styles.container}>
-      <h1>حدیث سلیمانی</h1>
+      <h1>Hadis Soleymani</h1>
       <Ul open={open} >
         <li>Home</li>
         <li>About me</li>

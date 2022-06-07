@@ -7,3 +7,11 @@
     justify-content: space-between;
     height: 13vh;
 }
+@media(max-width: 768px){
+    .container{
+        height: 8vh;
+    }
+    .container h1{
+    display: none;
+}
+}

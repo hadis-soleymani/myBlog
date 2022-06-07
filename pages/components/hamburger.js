@@ -6,8 +6,8 @@ const Div = styled.div`
 width:2rem;
 height: 2rem;
 position:fixed;
-top:4vh;
-right:5vw;
+top:2vh;
+left:5vw;
 z-index:20;
 display:none;
 cursor: pointer;
@@ -20,7 +20,7 @@ cursor: pointer;
 div{
   height:0.25rem;
   width:2rem;
-  background:${props => props.open ? 'white':'pink' };
+  background:${props => props.open ?  '#42474b' :'rgb(234, 233, 239)' };
   border-radius:10px;
   transform-origin:1px;
   transition: all 0.3s linear;
@@ -41,7 +41,7 @@ export default class Hamburger extends Component {
   constructor() {
     super();
     this.state = {
-      open: true
+      open: false
     }
   }
   openHandler = () => {
