@@ -1,5 +1,5 @@
 import styles from "../../styles/about_me.module.css";
-import { Progress } from "reactstrap";
+
 export default function AboutMe() {
   return (
     <div className={styles.container}>
@@ -20,7 +20,6 @@ export default function AboutMe() {
           <div></div>
         </section>
       </div>
-      
     </div>
   );
 }
