@@ -1,17 +1,17 @@
-.container{
-    background-color: rgb(68, 67, 112);
-    color:rgb(234, 233, 239);
-    display: flex;
-    padding: 0 3vw;
-    align-items: center;
-    justify-content: space-between;
-    height: 13vh;
+.container {
+  background-color: rgb(68, 67, 112);
+  color: rgb(234, 233, 239);
+  display: flex;
+  padding: 0 3vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 13vh;
 }
-@media(max-width: 768px){
-    .container{
-        height: 8vh;
-    }
-    .container h1{
+@media (max-width: 1200px) and (min-width: 300px) {
+  .container {
+    height: 8vh;
+  }
+  .container h1 {
     display: none;
-}
+  }
 }
