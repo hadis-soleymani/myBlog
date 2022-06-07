@@ -5,26 +5,29 @@ const Ul = styled.ul`
     list-style:none;
     display:flex;
     justify-content: right;
-    margin: 2vh 2vw;
     z-index:15;
     li:hover{
-      color:#f0f;
+      color:rgb(226, 224, 74);
+      transition:all .2s ease-in;
     }
     li{
-        padding:2vw
+        padding:2vw;
+        font-size:1.3rem;
+        font-weight:600;
     }
     @media (max-width: 768px){
         flex-direction:column;
-        background-color: pink;
+        background-color: #fff;
         margin:0;
-        color:white;
+        color:#42474b;
         position:fixed;
+        box-shadow: 3px 3px 10px #cbced1;
         transition: all 0.3s linear;
-        transform: ${props => props.open ? 'translateX(0)':'translateX(100%)' };
+        transform: ${props => props.open ? 'translateX(-100%)':'translateX(0)' };
         right:0;
         top:0;
         padding-top:6vh;
-        width:45vw;
+        width:65vw;
         height: 100vh;
 
     }
@@ -35,14 +38,14 @@ export default function Navbar({open}) {
     <div className={styles.container}>
       <h1>حدیث سلیمانی</h1>
       <Ul open={open} >
-        <li>خانه</li>
-        <li>درباره ی من</li>
-        <li>خدمات</li>
-        <li>تجربه ها</li>
-        <li>اعضای تیم</li>
-        <li>وبلاگ</li>
-        <li>ارتباط با من</li>
-        <li>نمونه کار ها</li>
+        <li>Home</li>
+        <li>About me</li>
+        <li>Services</li>
+        <li>Expriments</li>
+        <li>Teamates</li>
+        <li>Blog</li>
+        <li>Contact us</li>
+        <li>works</li>
       </Ul>
     </div>
   );
