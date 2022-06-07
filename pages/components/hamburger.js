@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Navbar from './Navbar'
+import Navbar from './navbar'
 
 const Div = styled.div`
 width:2rem;
@@ -41,7 +41,7 @@ export default class Hamburger extends Component {
   constructor() {
     super();
     this.state = {
-      open: false
+      open: true
     }
   }
   openHandler = () => {
