@@ -43,7 +43,7 @@ export default class Hamburger extends Component {
   constructor() {
     super();
     this.state = {
-      open: true,
+      open: false,
     };
   }
   openHandler = () => {

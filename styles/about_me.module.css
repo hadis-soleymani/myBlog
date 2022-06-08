@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #42474b;
+}
+.container h1 {
+  font-size: 1.7rem;
+  width: 92vw;
+  text-align: left;
+  padding: 1rem 0;
+}
+.Ttemscontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+.avatar {
+  width: 12%;
+}
+.container section {
+  display: flex;
+  width: 60%;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px #cbced1;
+  border-radius: 16px;
+  justify-content: space-between;
+}
+.resume {
+  width: 48%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+.resume p {
+  direction: ltr;
+}
+.resume button {
+    background-color: rgb(241, 65, 86);
+    border: none;
+    color: rgb(234, 233, 239);
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .resume button:hover {
+    background-color: rgba(241, 65, 86,0.7);
+  }
+.progressContainer {
+  width: 48%;
+}
+@media (max-width: 768px) {
+  .Ttemscontainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .avatar {
+    width: 30vw;
+    margin-bottom: 3vh;
+  }
+  .container section {
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    align-items: center;
+  }
+  .resume {
+    
+    width: 80%;
+    border-bottom: 1px solid #cbced1;
+    padding-bottom: 2vh;
+  }
+
+  .progressContainer {
+    
+    width: 80%;
+  }
+}

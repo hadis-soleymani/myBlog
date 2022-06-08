@@ -10,7 +10,7 @@ export default function Home() {
       <img src="/avatar.svg" alt="avatar"></img>
       <br />
       <h1>Hadis Sooleymani</h1>
-      <h3>reactjs & React Native developer</h3>
+      <h3>Reactjs & React Native developer</h3>
   <div className={styles.iconContainer}>
   <FaInstagram />
       <AiOutlineLinkedin/>
