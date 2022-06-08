@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 .container h1 {
   font-size: 1.7rem;
@@ -11,7 +10,6 @@
   padding: 1rem 0;
   color: #42474b;
 }
-
 .cards_container {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +34,6 @@
   align-items: center;
   position: relative;
   color: #6e767c;
-  
 }
 .icon_date_container svg {
   position: absolute;
@@ -45,18 +42,17 @@
 .icon_date_container p {
   padding-left: 2rem;
   color: #6e767c;
-  
 }
 .detail_container {
   border-left: 1px solid rgb(241, 65, 86);
   padding: 1rem;
   color: #6e767c;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-.detail_container h2{
-    color: #42474b;
-    font-size:1.5rem;
-  }
+.detail_container h2 {
+  color: #42474b;
+  font-size: 1.5rem;
+}
 @media (max-width: 768px) {
   .card_container {
     width: 86vw;

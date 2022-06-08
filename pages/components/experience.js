@@ -8,12 +8,20 @@ export default function Experience() {
 
       <div className={styles.cards_container}>
         <div className={styles.card_container}>
-          <Experience_card date='2016-2017' title='Academic Degree' icon='Academi'/>
-          <Experience_card date='2014-2016' title='Bachlors Degree' icon='Academi'/>
+          <Experience_card
+            date="2016-2017"
+            title="Academic Degree"
+            icon="Academi"
+          />
+          <Experience_card
+            date="2014-2016"
+            title="Bachlors Degree"
+            icon="Academi"
+          />
         </div>
         <div className={styles.card_container}>
-          <Experience_card date='2010-2020' title='Reactjs' icon='work'/>
-          <Experience_card date='201-2019' title='React Native' icon='work'/>
+          <Experience_card date="2010-2020" title="Reactjs" icon="work" />
+          <Experience_card date="201-2019" title="React Native" icon="work" />
         </div>
       </div>
     </div>
