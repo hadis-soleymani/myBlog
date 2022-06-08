@@ -1,12 +1,25 @@
 import styles from "../../styles/home.module.css";
+import { FaInstagram ,FaWhatsapp } from 'react-icons/fa';
+import { AiOutlineLinkedin , AiFillGithub} from 'react-icons/ai';
+import { TbBrandTelegram } from 'react-icons/tb';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <img src="/profile.jpg" alt="hgjh"></img>
+    <div className={styles.ItemsContainer}>
+      <img src="/avatar.svg" alt="avatar"></img>
       <br />
-      <h1>حدیث سلیمانی</h1>
-      <h3>توسعه دهنده ی reacjs و react-native</h3>
+      <h1>Hadis Sooleymani</h1>
+      <h3>reactjs & React Native developer</h3>
+  <div className={styles.iconContainer}>
+  <FaInstagram />
+      <AiOutlineLinkedin/>
+      <TbBrandTelegram/>
+      <FaWhatsapp/>
+      <AiFillGithub/>
+  </div>
+     
+    </div>
     </div>
   );
 }

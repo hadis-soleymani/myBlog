@@ -12,6 +12,7 @@
     "next": "12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
     "reactstrap": "^9.0.2",
     "styled-components": "^5.3.5"
   },

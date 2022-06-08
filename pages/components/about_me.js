@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h1>درباره ی من</h1>
 
       <div>
-        <img src="/profile.jpg" alt="hgjh"></img>
+        <img src="/avatar.svg" alt="hgjh"></img>
         <section>
           <div>
             <p>
@@ -17,7 +17,9 @@ export default function AboutMe() {
             <button>دانلود رزومه</button>
           </div>
 
-          <div></div>
+          <div>
+            
+          </div>
         </section>
       </div>
     </div>

@@ -5,13 +5,6 @@
   padding: 0 3vw;
   align-items: center;
   justify-content: space-between;
-  height: 13vh;
+ border-bottom: 1px solid rgba(234, 233, 239,0.2);
 }
-@media (max-width: 1200px) and (min-width: 300px) {
-  .container {
-    height: 8vh;
-  }
-  .container h1 {
-    display: none;
-  }
-}
+

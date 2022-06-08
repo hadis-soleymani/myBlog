@@ -35,10 +35,23 @@ const Ul = styled.ul`
   }
 `;
 
+const H1 = styled.h1`
+ 
+  @media (max-width: 1200px) and (min-width: 300px) {
+    display: ${(props) =>
+      props.open  ? 'none' : "inline" };
+    position:relative;
+    margin: 0 auto;
+    font-size:4vw;
+    height:4rem;
+    line-height:4rem;
+  }
+`;
+
 export default function Navbar({ open }) {
   return (
     <div className={styles.container}>
-      <h1>Hadis Soleymani</h1>
+      <H1 open={open}>Hadis Soleymani</H1>
       <Ul open={open}>
         <li>Home</li>
         <li>About me</li>

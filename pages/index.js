@@ -15,7 +15,8 @@ export default function App() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <Hamburger/>
-
+<Home />
+<AboutMe/>
     </div>
   )
 }

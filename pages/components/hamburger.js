@@ -6,11 +6,12 @@ const Div = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 2vh;
+  top: 1rem;
   left: 5vw;
   z-index: 20;
   display: none;
   cursor: pointer;
+  
 
   @media (max-width: 1200px) and (min-width: 300px) {
     display: flex;
@@ -42,7 +43,7 @@ export default class Hamburger extends Component {
   constructor() {
     super();
     this.state = {
-      open: false,
+      open: true,
     };
   }
   openHandler = () => {

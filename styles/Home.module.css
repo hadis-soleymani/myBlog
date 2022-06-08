@@ -1,0 +1,36 @@
+.container {
+  height: 60vh;
+  background-color: rgb(68, 67, 112);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(234, 233, 239);
+}
+.container img {
+  width: 10rem;
+}
+.container h1 {
+  font-size: 1.9rem;
+  margin: 1.5rem 0 1rem 0;
+}
+.container h3 {
+  font-size: 1.2rem;
+  margin-top: 6px;
+  font-weight: 400;
+  color: rgba(234, 233, 239, 0.8);
+}
+.iconContainer svg {
+  color: rgba(234, 233, 239, 0.6);
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 5px;
+}
+.iconContainer svg:hover{
+   color: #fff; 
+}
