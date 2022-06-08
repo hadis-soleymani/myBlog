@@ -19,6 +19,7 @@ export default function App() {
       <Hamburger />
       <Home />
       <AboutMe />
+      <Services/>
     </div>
   );
 }

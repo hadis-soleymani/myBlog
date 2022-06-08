@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #42474b;
+  margin-top: 2rem;
+}
+.services h1 {
+  font-size: 1.7rem;
+  width: 92vw;
+  text-align: left;
+  padding: 1rem 0;
+}
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* one card style */
+.container img {
+  width: 70%;
+}
