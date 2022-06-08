@@ -3,6 +3,7 @@ import styles from "../styles/app.module.css";
 
 //Components
 import AboutMe from "./components/about_me";
+import Experience from "./components/experience";
 import Hamburger from "./components/hamburger";
 import Home from "./components/home";
 import Navbar from "./components/navbar";
@@ -20,6 +21,7 @@ export default function App() {
       <Home />
       <AboutMe />
       <Services/>
+      <Experience/>
     </div>
   );
 }
