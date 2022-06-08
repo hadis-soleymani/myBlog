@@ -11,7 +11,6 @@ const Div = styled.div`
   z-index: 20;
   display: none;
   cursor: pointer;
-  
 
   @media (max-width: 1200px) and (min-width: 300px) {
     display: flex;
