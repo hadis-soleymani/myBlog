@@ -17,23 +17,20 @@ const Works = () => {
         <Work_card image={"plant.svg"} name="Nahalito" />
         <Work_card image={"online-shop.svg"} name="Online Shop" />
 
-        <Work_card
-          image={"wallet.svg"}
-          name="Smart City"
-          onPress_func={setShow}
-        />
-        {show ?<>
-        <Work_card
-          image={"wallet-management.svg"}
-          name="Wallet Management"
-        />
-        <Work_card image={"chat.svg"} name="Automation" />
-        <Work_card image={"login.svg"} name="Authentication test" />
-      </> :null}
+        <Work_card image={"wallet.svg"} name="Smart City" />
+        {show ? (
+          <>
+            <Work_card
+              image={"wallet-management.svg"}
+              name="Wallet Management"
+            />
+            <Work_card image={"chat.svg"} name="Automation" />
+            <Work_card image={"login.svg"} name="Authentication test" />
+          </>
+        ) : null}
       </div>
-     
-      
-      <Button name="Show more" onPress_func={show_more}/>
+
+      <Button name="Show more" onPress_func={show_more} />
     </div>
   );
 };

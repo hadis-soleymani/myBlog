@@ -6,6 +6,7 @@ import AboutMe from "./components/about_me";
 import Experience from "./components/experience";
 import Hamburger from "./components/hamburger";
 import Home from "./components/home";
+import Posts from "./components/Posts";
 import Services from "./components/services";
 import Works from "./components/works";
 
@@ -23,6 +24,7 @@ export default function App() {
       <Services/>
       <Experience/>
       <Works/>
+      <Posts />
     </div>
   );
 }
