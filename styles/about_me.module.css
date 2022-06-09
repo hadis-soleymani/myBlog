@@ -37,11 +37,11 @@
 .resume p {
   direction: ltr;
 }
-
 .progressContainer {
   width: 48%;
 }
 
+/* tablet and mobile and small monitor */
 @media (max-width: 1000px) {
   .Ttemscontainer {
     flex-direction: column;

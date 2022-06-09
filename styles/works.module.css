@@ -18,27 +18,22 @@
 }
 
 /* one card style */
-
 .card_container {
-    width: 360px;
-    border-radius: 16px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    margin:1.3rem;
-    
-
+  width: 360px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1.3rem;
   background-color: #fff;
   box-shadow: 3px 3px 10px #cbced1;
- 
 }
-
 .card_container img {
-    width: 70%;
+  width: 70%;
 }
 .card_container h2 {
-color: #42474b;
-font-size: 1.5rem;
+  color: #42474b;
+  font-size: 1.5rem;
 }

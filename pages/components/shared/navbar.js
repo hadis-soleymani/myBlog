@@ -1,6 +1,10 @@
+//styles
 import styles from "../../../styles/navbar.module.css";
+
+//libraries
 import styled from "styled-components";
 
+//styled components
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -9,7 +13,7 @@ const Ul = styled.ul`
   li:hover {
     color: rgb(226, 224, 74);
     transition: all 0.2s ease-in;
-    cursor:pointer;
+    cursor: pointer;
   }
   li {
     padding: 1.2vw;
@@ -31,20 +35,17 @@ const Ul = styled.ul`
     padding-top: 8vh;
     width: 65vw;
     height: 100vh;
-    
   }
 `;
 
 const H1 = styled.h1`
- 
   @media (max-width: 1200px) and (min-width: 300px) {
-    display: ${(props) =>
-      props.open  ? 'none' : "inline" };
-    position:relative;
+    display: ${(props) => (props.open ? "none" : "inline")};
+    position: relative;
     margin: 0 auto;
-    font-size:4vw;
-    height:4rem;
-    line-height:4rem;
+    font-size: 4vw;
+    height: 4rem;
+    line-height: 4rem;
   }
 `;
 

@@ -1,4 +1,7 @@
+//styles
 import styles from "../../styles/experience.module.css";
+
+//components
 import { Experience_card } from "./shared/experience-card";
 
 export default function Experience() {

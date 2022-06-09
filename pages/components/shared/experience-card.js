@@ -1,3 +1,4 @@
+//styles
 import styles from "../../../styles/experience.module.css";
 
 //Icons
@@ -16,7 +17,6 @@ export const Experience_card = ({ date, title, icon }) => {
         ) : (
           <HiOutlineAcademicCap color="rgb(241, 65, 86)" size={"2rem"} />
         )}
-
         <p>{date}</p>
       </div>
       <div className={styles.detail_container}>

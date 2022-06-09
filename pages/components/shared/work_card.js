@@ -1,4 +1,6 @@
 import React from "react";
+
+//styles
 import styles from "../../../styles/works.module.css";
 
 const Work_card = ({ image, name }) => {

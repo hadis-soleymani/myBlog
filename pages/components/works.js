@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
+//styles
 import styles from "../../styles/works.module.css";
+
+//components
 import Work_card from "./shared/work_card";
 import Button from "./shared/button";
 
@@ -16,7 +19,6 @@ const Works = () => {
       <div className={styles.cards_container}>
         <Work_card image={"plant.svg"} name="Nahalito" />
         <Work_card image={"online-shop.svg"} name="Online Shop" />
-
         <Work_card image={"wallet.svg"} name="Smart City" />
         {show ? (
           <>

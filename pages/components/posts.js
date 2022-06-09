@@ -1,4 +1,7 @@
+//styles
 import styles from "../../styles/posts.module.css";
+
+//components
 import Post_card from "./shared/post_card";
 
 const Posts = () => {

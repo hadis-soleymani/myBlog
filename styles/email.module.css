@@ -39,7 +39,6 @@
   border: none;
   font-size: 1rem;
 }
-
 .email_container form input:nth-child(1),
 .email_container form input:nth-child(2) {
   width: 40%;
@@ -61,7 +60,6 @@
   .paragraph_container {
     width: 90%;
   }
-
   .email_container form {
     width: 90%;
   }

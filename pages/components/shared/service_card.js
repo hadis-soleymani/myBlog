@@ -1,6 +1,10 @@
+//styles
 import styles from "../../../styles/services.module.css";
+
+//libraries
 import styled from "styled-components";
 
+//styled component
 const Div = styled.div`
 width: 350px;
 border-radius: 16px;

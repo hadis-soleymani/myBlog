@@ -23,12 +23,12 @@ export default function App() {
       <Hamburger />
       <Home />
       <AboutMe />
-      <Services/>
-      <Experience/>
-      <Works/>
+      <Services />
+      <Experience />
+      <Works />
       <Posts />
-      <Email/>
-      <Footer/>
+      <Email />
+      <Footer />
     </div>
   );
 }

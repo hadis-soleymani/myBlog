@@ -1,7 +1,12 @@
 import React, { Component } from "react";
+
+//ibraries
 import styled from "styled-components";
+
+//components
 import Navbar from "./shared/navbar";
 
+//styled component
 const Div = styled.div`
   width: 2rem;
   height: 2rem;

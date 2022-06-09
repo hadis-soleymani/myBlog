@@ -1,12 +1,11 @@
-.container{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    background-color: rgb(68, 67, 112);
-    color: rgb(234, 233, 239);
-    font-size: 1rem;
-
-    font-weight: 600;
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: rgb(68, 67, 112);
+  color: rgb(234, 233, 239);
+  font-size: 1rem;
+  font-weight: 600;
 }
