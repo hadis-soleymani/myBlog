@@ -3,6 +3,7 @@ import styles from "../styles/app.module.css";
 
 //Components
 import AboutMe from "./components/about_me";
+import Email from "./components/email";
 import Experience from "./components/experience";
 import Hamburger from "./components/hamburger";
 import Home from "./components/home";
@@ -25,6 +26,7 @@ export default function App() {
       <Experience/>
       <Works/>
       <Posts />
+      <Email/>
     </div>
   );
 }
