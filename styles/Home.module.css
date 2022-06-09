@@ -12,6 +12,7 @@
   justify-content: center;
   flex-direction: column;
   color: rgb(234, 233, 239);
+  margin-top: 16vh;
 }
 .container img {
   width: 10rem;

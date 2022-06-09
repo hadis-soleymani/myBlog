@@ -1,4 +1,4 @@
-import styles from "../../styles/navbar.module.css";
+import styles from "../../../styles/navbar.module.css";
 import styled from "styled-components";
 
 const Ul = styled.ul`

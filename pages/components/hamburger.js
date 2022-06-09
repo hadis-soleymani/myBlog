@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Navbar from "./navbar";
+import Navbar from "./shared/navbar";
 
 const Div = styled.div`
   width: 2rem;

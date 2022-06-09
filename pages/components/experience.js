@@ -1,5 +1,5 @@
 import styles from "../../styles/experience.module.css";
-import { Experience_card } from "./experience-card";
+import { Experience_card } from "./shared/experience-card";
 
 export default function Experience() {
   return (

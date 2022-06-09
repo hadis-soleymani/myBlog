@@ -6,8 +6,8 @@ import AboutMe from "./components/about_me";
 import Experience from "./components/experience";
 import Hamburger from "./components/hamburger";
 import Home from "./components/home";
-import Navbar from "./components/navbar";
 import Services from "./components/services";
+import Works from "./components/works";
 
 export default function App() {
   return (
@@ -22,6 +22,7 @@ export default function App() {
       <AboutMe />
       <Services/>
       <Experience/>
+      <Works/>
     </div>
   );
 }

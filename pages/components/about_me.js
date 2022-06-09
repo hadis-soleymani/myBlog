@@ -1,5 +1,7 @@
 import styles from "../../styles/about_me.module.css";
 import ProgressBar from "@ramonak/react-progress-bar";
+
+import Button from "./shared/button";
 export default function AboutMe() {
   return (
     <div className={styles.container}>
@@ -14,7 +16,7 @@ export default function AboutMe() {
               electronics from Hormuzgan University. I work as a mobile
               application and front-end developer.
             </p>
-            <button>Download CV</button>
+            <Button name="Download CV"/>
           </div>
 
           <div className={styles.progressContainer}>

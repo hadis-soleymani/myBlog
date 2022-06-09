@@ -1,4 +1,4 @@
-import styles from "../../styles/experience.module.css";
+import styles from "../../../styles/experience.module.css";
 
 //Icons
 import { HiOutlineAcademicCap } from "react-icons/hi";

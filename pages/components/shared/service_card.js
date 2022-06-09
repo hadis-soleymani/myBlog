@@ -1,4 +1,4 @@
-import styles from "../../styles/services.module.css";
+import styles from "../../../styles/services.module.css";
 import styled from "styled-components";
 
 const Div = styled.div`
@@ -30,7 +30,7 @@ export default function Service_card(props) {
       color={props.color}
       bgcolor={props.bgcolor}
     >
-      <img src={`/${props.image}`} alt="hgjh"></img>
+      <img src={`/${props.image}`} alt="profile"></img>
       <h2>{props.title}</h2>
       <p>
         Sit non fugiat aliquip id et irure. Occaecat velit in reprehenderit nisi

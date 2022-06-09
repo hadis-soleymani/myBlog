@@ -37,18 +37,7 @@
 .resume p {
   direction: ltr;
 }
-.resume button {
-  background-color: rgb(241, 65, 86);
-  border: none;
-  color: rgb(234, 233, 239);
-  padding: 1rem;
-  border-radius: 20px;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.resume button:hover {
-  background-color: rgba(241, 65, 86, 0.7);
-}
+
 .progressContainer {
   width: 48%;
 }
