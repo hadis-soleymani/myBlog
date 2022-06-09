@@ -4,7 +4,7 @@ import Service_card from "./shared/service_card";
 export default function Services() {
   return (
     <div className={styles.services}>
-      <h1>About me</h1>
+      <h1>Services</h1>
       <div className={styles.cards_container}>
         <Service_card
           title="html , css"

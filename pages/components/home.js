@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.ItemsContainer}>
         <img src="/avatar.svg" alt="avatar"></img>
         <br />
-        <h1>Hadis Sooleymani</h1>
+        <h1>Hadis Soleymani</h1>
         <h3>Reactjs & React Native developer</h3>
         <div className={styles.iconContainer}>
           <FaInstagram />
