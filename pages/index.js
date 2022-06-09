@@ -9,6 +9,7 @@ import Hamburger from "./components/hamburger";
 import Home from "./components/home";
 import Posts from "./components/Posts";
 import Services from "./components/services";
+import Footer from "./components/shared/footer";
 import Works from "./components/works";
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
       <Works/>
       <Posts />
       <Email/>
+      <Footer/>
     </div>
   );
 }
