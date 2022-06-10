@@ -7,7 +7,7 @@
   font-size: 1.7rem;
   width: 92vw;
   text-align: left;
-  padding: 1rem 0;
+  padding: 6rem 0 1rem 0;
   color: #42474b;
 }
 .cards_container {
@@ -56,5 +56,12 @@
 @media (max-width: 768px) {
   .card_container {
     width: 86vw;
+  }
+}
+
+@media (max-width: 1200px){
+  .container h1 {
+    padding: 3rem 0 0 0;
+    margin-bottom: 0;
   }
 }

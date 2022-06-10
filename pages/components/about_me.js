@@ -9,8 +9,8 @@ import Button from "./shared/button";
 
 export default function AboutMe() {
   return (
-    <div className={styles.container}>
-      <h1>About me</h1>
+    <div className={styles.container} id="about_me" >
+      <h1 >About me</h1>
 
       <div className={styles.Ttemscontainer}>
         <img src="/avatar.svg" className={styles.avatar} alt="hgjh"></img>

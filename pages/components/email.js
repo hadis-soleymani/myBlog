@@ -6,7 +6,7 @@ import Button from "./shared/button";
 
 export default function Email() {
   return (
-    <div className={styles.email_container}>
+    <div className={styles.email_container} id="email">
       <h1>Get in Toucch</h1>
       <div>
         <div className={styles.paragraph_container}>

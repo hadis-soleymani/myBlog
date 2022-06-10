@@ -6,7 +6,7 @@ import Service_card from "./shared/service_card";
 
 export default function Services() {
   return (
-    <div className={styles.services}>
+    <div className={styles.services} id="services">
       <h1>Services</h1>
       <div className={styles.cards_container}>
         <Service_card

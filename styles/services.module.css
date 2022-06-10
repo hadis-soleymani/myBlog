@@ -9,7 +9,7 @@
   font-size: 1.7rem;
   width: 92vw;
   text-align: left;
-  padding: 1rem 0;
+  padding: 6rem 0 1rem 0;
 }
 .cards_container {
   display: flex;
@@ -20,4 +20,11 @@
 /* one card style */
 .container img {
   width: 70%;
+}
+
+@media (max-width: 1200px){
+  .services h1 {
+    padding: 3rem 0 0 0;
+    margin-bottom: 0;
+  }
 }

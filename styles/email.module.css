@@ -8,7 +8,7 @@
   font-size: 1.7rem;
   width: 92vw;
   text-align: left;
-  padding: 1rem 0;
+  padding: 6rem 0 1rem 0;
   color: #42474b;
 }
 .email_container div:nth-child(2) {
@@ -85,5 +85,12 @@
   .email_container textarea {
     width: 90%;
     height: 8rem;
+  }
+}
+
+@media (max-width: 1200px){
+  .email_container h1 {
+    padding: 3rem 0 0 0;
+    margin-bottom: 0;
   }
 }

@@ -6,7 +6,7 @@ import Post_card from "./shared/post_card";
 
 const Posts = () => {
   return (
-    <div className={styles.posts_container}>
+    <div className={styles.posts_container} id="posts">
       <h1>Latest Posts</h1>
       <div className={styles.cards_container}>
         <Post_card image="post1.svg" />

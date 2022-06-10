@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/app.module.css";
 
 //Components
 import AboutMe from "./components/about_me";

@@ -8,7 +8,7 @@ import { TbBrandTelegram } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="home">
       <div className={styles.ItemsContainer}>
         <img src="/avatar.svg" alt="avatar"></img>
         <br />
