@@ -1,5 +1,5 @@
 //styles
-import styles from '../styles/home.module.css';
+import styles from '../styles/home_sec.module.css';
                           
 //Icons
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
