@@ -1,8 +1,8 @@
 //styles
-import styles from "../../styles/services.module.css";
+import styles from "../styles/services.module.css";
 
 //components
-import Service_card from "./shared/service_card";
+import Service_card from "./service_card";
 
 export default function Services() {
   return (

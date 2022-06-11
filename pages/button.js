@@ -1,5 +1,5 @@
 //styles
-import styles from "../../../styles/button.module.css";
+import styles from "../styles/button.module.css";
 
 const Button = ({ name, onPress_func }) => {
   return (

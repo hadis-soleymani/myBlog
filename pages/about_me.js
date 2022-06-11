@@ -1,11 +1,11 @@
 //styles
-import styles from "../../styles/about_me.module.css";
+import styles from "../styles/about_me.module.css";
 
 //libraries
 import ProgressBar from "@ramonak/react-progress-bar";
 
 //components
-import Button from "./shared/button";
+import Button from "./button";
 
 export default function AboutMe() {
   return (

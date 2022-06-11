@@ -1,15 +1,15 @@
 import Head from "next/head";
 
 //Components
-import AboutMe from "./components/about_me";
-import Email from "./components/email";
-import Experience from "./components/experience";
-import Hamburger from "./components/hamburger";
-import Home from "./components/home";
-import Posts from "./components/Posts";
-import Services from "./components/services";
-import Footer from "./components/shared/footer";
-import Works from "./components/works";
+import AboutMe from "./about_me";
+import Email from "./email";
+import Experience from "./experience";
+import Hamburger from "./hamburger";
+import Home from "./home";
+import Posts from "./Posts";
+import Services from "./services";
+import Footer from "./footer";
+import Works from "./works";
 
 export default function App() {
   return (

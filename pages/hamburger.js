@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 //components
-import Navbar from "./shared/navbar";
+import Navbar from "./navbar";
 
 //styled component
 const Div = styled.div`

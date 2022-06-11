@@ -1,5 +1,5 @@
 //styles
-import styles from "../../../styles/services.module.css";
+import styles from "../styles/services.module.css";
 
 //libraries
 import styled from "styled-components";

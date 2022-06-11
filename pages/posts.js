@@ -1,8 +1,8 @@
 //styles
-import styles from "../../styles/posts.module.css";
+import styles from "../styles/posts.module.css";
 
 //components
-import Post_card from "./shared/post_card";
+import Post_card from "./post_card";
 
 const Posts = () => {
   return (

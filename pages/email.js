@@ -1,8 +1,8 @@
 //styles
-import styles from "../../styles/email.module.css";
+import styles from "../styles/email.module.css";
 
 //components
-import Button from "./shared/button";
+import Button from "./button";
 
 export default function Email() {
   return (

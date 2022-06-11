@@ -1,7 +1,7 @@
 import React from "react";
 
 //styles
-import styles from "../../../styles/posts.module.css";
+import styles from "../styles/posts.module.css";
 
 const Post_card = ({ image }) => {
   return (
