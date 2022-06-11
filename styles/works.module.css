@@ -40,6 +40,7 @@
   font-size: .8rem;
   font-weight: 600;
   color: #0969da;
+  padding: .5rem 0;
 }
 .card_container a:hover{
   color: #054b9b;
