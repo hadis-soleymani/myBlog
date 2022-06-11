@@ -34,7 +34,16 @@
   color: #42474b;
   font-size: 1.1rem;
 }
-
+.card_container a{
+  text-align: left;
+  width: 100%;
+  font-size: .8rem;
+  font-weight: 600;
+  color: #0969da;
+}
+.card_container a:hover{
+  color: #054b9b;
+}
 @media (max-width: 1200px){
   .works_container h1 {
     padding: 3rem 0 0 0;
