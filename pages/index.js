@@ -6,7 +6,7 @@ import Email from "./email";
 import Experience from "./experience";
 import Hamburger from "./hamburger";
 import Home from "./home";
-import Posts from "./Posts";
+import Posts from "./posts";
 import Services from "./services";
 import Footer from "./footer";
 import Works from "./works";
