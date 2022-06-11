@@ -30,9 +30,6 @@
   background-color: #fff;
   box-shadow: 3px 3px 10px #cbced1;
 }
-.card_container img {
-  width: 70%;
-}
 .card_container h2 {
   color: #42474b;
   font-size: 1.5rem;

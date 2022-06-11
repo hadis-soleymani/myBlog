@@ -1,5 +1,6 @@
 //styles
 import styles from "../styles/about_me.module.css";
+import Image from "next/image";
 
 //libraries
 import ProgressBar from "@ramonak/react-progress-bar";
@@ -13,7 +14,7 @@ export default function AboutMe() {
       <h1 >About me</h1>
 
       <div className={styles.Ttemscontainer}>
-        <img src="/avatar.svg" className={styles.avatar} alt="hgjh"></img>
+      <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
         <section>
           <div className={styles.resume}>
             <p>

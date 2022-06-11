@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 
 //styles
 import styles from "../styles/works.module.css";
@@ -6,7 +7,12 @@ import styles from "../styles/works.module.css";
 const Work_card = ({ image, name }) => {
   return (
     <div className={styles.card_container}>
-      <img src={`/${image}`} />
+      <Image
+        src={`/${image}`}
+        alt="avatar"
+        width={200}
+        height={200}
+      />
       <h2>{name}</h2>
     </div>
   );

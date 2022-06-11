@@ -15,9 +15,6 @@
   justify-content: space-around;
   width: 70vw;
 }
-.avatar {
-  width: 10rem;
-}
 .container section {
   display: flex;
   width: 60%;
@@ -49,15 +46,12 @@
     align-items: center;
     width: 100vw;
   }
-  .avatar {
-    width: 30vw;
-    margin-bottom: 3vh;
-  }
   .container section {
     display: flex;
     flex-direction: column;
     width: 86%;
     align-items: center;
+    margin-top: 3vh;
   }
   .resume {
     width: 80%;

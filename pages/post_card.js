@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 //styles
 import styles from "../styles/posts.module.css";
@@ -6,7 +7,7 @@ import styles from "../styles/posts.module.css";
 const Post_card = ({ image }) => {
   return (
     <div className={styles.card_container}>
-      <img src={`/${image}`} />
+      <Image src={`/${image}`} alt="avatar" width={230} height={230} />
       <h2>Consequat magna ex minim duis occaecat </h2>
       <p>
         29 mey 2012<span>- Hadis Soleymani</span>

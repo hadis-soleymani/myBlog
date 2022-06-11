@@ -1,5 +1,6 @@
 //styles
 import styles from "../styles/services.module.css";
+import Image from "next/image";
 
 //libraries
 import styled from "styled-components";
@@ -34,7 +35,7 @@ export default function Service_card(props) {
       color={props.color}
       bgcolor={props.bgcolor}
     >
-      <img src={`/${props.image}`} alt="profile"></img>
+      <Image src={`/${props.image}`} alt="avatar" width={200} height={200} />
       <h2>{props.title}</h2>
       <p>
         Sit non fugiat aliquip id et irure. Occaecat velit in reprehenderit nisi
