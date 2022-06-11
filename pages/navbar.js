@@ -20,7 +20,7 @@ const Ul = styled.ul`
   }
   li {
     padding: 1.2vw;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   @media (max-width: 1200px) and (min-width: 300px) {
@@ -42,11 +42,12 @@ const Ul = styled.ul`
 `;
 
 const H1 = styled.h1`
+font-size: 1.5rem;
   @media (max-width: 1200px) and (min-width: 300px) {
     display: ${(props) => (props.open ? "none" : "inline")};
     position: relative;
     margin: 0 auto;
-    font-size: 4vw;
+    font-size: 1.2rem;
     height: 4rem;
     line-height: 4rem;
   }

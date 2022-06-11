@@ -4,9 +4,9 @@
   color: rgb(234, 233, 239);
   padding: 1rem;
   border-radius: 20px;
-  font-size: 1.2rem;
+  font-size: .9rem;
   font-weight: 600;
-  height: 4rem;
+  height: 3rem;
 }
 .button:hover {
   background-color: rgba(241, 65, 86, 0.7);

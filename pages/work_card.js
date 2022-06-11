@@ -10,8 +10,8 @@ const Work_card = ({ image, name }) => {
       <Image
         src={`/${image}`}
         alt="avatar"
-        width={200}
-        height={200}
+        width={140}
+        height={140}
       />
       <h2>{name}</h2>
     </div>

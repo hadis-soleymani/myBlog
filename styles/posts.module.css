@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 .posts_container h1 {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   width: 92vw;
   text-align: left;
   padding: 6rem 0 1rem 0;
@@ -19,7 +19,7 @@
 
 /* one card style */
 .card_container {
-  width: 360px;
+  width: 280px;
   border-radius: 16px;
   align-items: center;
   justify-content: center;
@@ -32,13 +32,15 @@
   color: #42474b;
 }
 .card_container h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .card_container p {
   width: 100%;
+  font-size: 0.8rem;
 }
 .card_container span {
   color: rgba(241, 65, 86, 0.7);
+  font-size: 0.8rem;
 }
 
 @media (max-width: 1200px){

@@ -5,7 +5,7 @@
   margin-bottom: 4rem;
 }
 .email_container h1 {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   width: 92vw;
   text-align: left;
   padding: 6rem 0 1rem 0;
@@ -20,8 +20,15 @@
   width: 30%;
   color: #42474b;
 }
+.paragraph_container h2{
+  font-size: 1.1rem;
+}
 .paragraph_container span {
   color: rgba(241, 65, 86, 0.7);
+  font-size: .8rem;
+}
+.paragraph_container p {
+  font-size: .8rem;
 }
 .email_container form {
   display: flex;
@@ -37,7 +44,7 @@
   background-color: #fff;
   box-shadow: 3px 3px 10px #cbced1;
   border: none;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 .email_container form input:nth-child(1),
 .email_container form input:nth-child(2) {

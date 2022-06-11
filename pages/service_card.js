@@ -7,22 +7,22 @@ import styled from "styled-components";
 
 //styled component
 const Div = styled.div`
-width: 350px;
+width: 280px;
 border-radius: 16px;
 align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: column;
-padding: 1.5rem;
+padding: 1rem;
 margin:1.3rem;
 color: ${(props) => props.color};
 background-color: ${(props) => props.bgcolor}; 
 h2 {
   margin: 1vh 0 0 0;
-  font-size: 1.4rem; 
+  font-size: 1.1rem; 
 } 
 p {
-font-size:1.2rem;
+font-size:.9rem;
 text-align: center;
 }
 }
@@ -35,7 +35,7 @@ export default function Service_card(props) {
       color={props.color}
       bgcolor={props.bgcolor}
     >
-      <Image src={`/${props.image}`} alt="avatar" width={200} height={200} />
+      <Image src={`/${props.image}`} alt="avatar" width={170} height={170} />
       <h2>{props.title}</h2>
       <p>
         Sit non fugiat aliquip id et irure. Occaecat velit in reprehenderit nisi
