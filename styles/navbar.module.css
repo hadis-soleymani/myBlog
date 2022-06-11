@@ -10,3 +10,6 @@
   width: 100vw;
   z-index: 1;
 }
+.active_item {
+  color: rgb(226, 224, 74);
+}
