@@ -1,3 +1,5 @@
+import React from "react";
+
 //styles
 import styles from "../styles/experience.module.css";
 
@@ -5,7 +7,7 @@ import styles from "../styles/experience.module.css";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
-export const Experience_card = ({ date, title, icon }) => {
+export default Experience_card = ({ date, title, icon }) => {
   return (
     <div>
       <div className={styles.icon_date_container}>
