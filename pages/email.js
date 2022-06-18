@@ -7,15 +7,15 @@ import styles from "../styles/email.module.css";
 import Button from "./button";
 
 //Toast
-import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Email() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-   
+
     emailjs
       .sendForm(
         "service_mmcnb7s",
@@ -27,7 +27,7 @@ export default function Email() {
         (result) => {
           console.log(result.text);
           parent._alert = new parent.Function("alert(arguments[0]);");
-          toast("Email send successfully!")
+          toast("Email send successfully!");
         },
         (error) => {
           console.log(error.text);
