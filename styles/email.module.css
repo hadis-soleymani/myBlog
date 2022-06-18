@@ -11,7 +11,7 @@
   padding: 6rem 0 1rem 0;
   color: #42474b;
 }
-.email_container div:nth-child(2) {
+.item_container {
   display: flex;
   width: 80%;
   justify-content: center;
@@ -20,15 +20,15 @@
   width: 30%;
   color: #42474b;
 }
-.paragraph_container h2{
+.paragraph_container h2 {
   font-size: 1.1rem;
 }
 .paragraph_container span {
   color: rgba(241, 65, 86, 0.7);
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .paragraph_container p {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .email_container form {
   display: flex;
@@ -44,7 +44,7 @@
   background-color: #fff;
   box-shadow: 3px 3px 10px #cbced1;
   border: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 .email_container form input:nth-child(1),
 .email_container form input:nth-child(2) {
@@ -60,7 +60,7 @@
 
 /* tablet and small monitor */
 @media (max-width: 1000px) and (min-width: 764px) {
-  .email_container div:nth-child(2) {
+  .item_container {
     flex-direction: column;
     align-items: center;
   }
@@ -74,7 +74,7 @@
 
 /* mobile */
 @media (max-width: 764px) {
-  .email_container div:nth-child(2) {
+  .item_container {
     flex-direction: column;
     align-items: center;
   }
@@ -95,7 +95,7 @@
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .email_container h1 {
     padding: 3rem 0 0 0;
     margin-bottom: 0;
