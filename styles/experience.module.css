@@ -58,6 +58,9 @@
   .card_container {
     width: 80vw;
   }
+  .icon_date_container p {
+    width: 70vw;
+  }
 }
 
 @media (max-width: 1200px){
