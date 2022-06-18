@@ -6,12 +6,16 @@ import styles from "../styles/email.module.css";
 //components
 import Button from "./button";
 
+//Toast
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
 export default function Email() {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log("button");
+   
     emailjs
       .sendForm(
         "service_mmcnb7s",
@@ -22,8 +26,8 @@ export default function Email() {
       .then(
         (result) => {
           console.log(result.text);
-          alert('email send successfully' );
-
+          parent._alert = new parent.Function("alert(arguments[0]);");
+          toast("Email send successfully!")
         },
         (error) => {
           console.log(error.text);
@@ -34,6 +38,7 @@ export default function Email() {
 
   return (
     <div className={styles.email_container} id="email">
+      <ToastContainer />
       <h1>Get in Toucch</h1>
       <div>
         <div className={styles.paragraph_container}>
