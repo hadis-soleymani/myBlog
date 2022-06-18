@@ -2,7 +2,7 @@
 import styles from "../styles/experience.module.css";
 
 //components
-import Experience_card  from "./experience-card";
+import Experience_card from "./experience-card";
 
 export default function Experience() {
   return (
@@ -12,19 +12,30 @@ export default function Experience() {
       <div className={styles.cards_container}>
         <div className={styles.card_container}>
           <Experience_card
-            date="2016-2017"
+            date="2002-2014"
             title="Academic Degree"
             icon="Academi"
+            description="I have a bachlor degree in electronics from Hormuzgan University ."
           />
           <Experience_card
-            date="2014-2016"
+            date="2014-2019"
             title="Bachlors Degree"
             icon="Academi"
           />
         </div>
         <div className={styles.card_container}>
-          <Experience_card date="2010-2020" title="Reactjs" icon="work" />
-          <Experience_card date="201-2019" title="React Native" icon="work" />
+          <Experience_card
+            date="2020-2022"
+            title="Reactjs"
+            icon="work"
+            description="I worked as a Reactjs & React Native developer at Space Time Company ."
+          />
+          <Experience_card
+            date="2020-2022"
+            title="React Native"
+            icon="work"
+            description="I worked as a Reactjs & React Native developer at Space Time Company ."
+          />
         </div>
       </div>
     </div>
