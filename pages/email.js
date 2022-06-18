@@ -1,3 +1,5 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 //styles
 import styles from "../styles/email.module.css";
 
@@ -5,6 +7,31 @@ import styles from "../styles/email.module.css";
 import Button from "./button";
 
 export default function Email() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log("button");
+    emailjs
+      .sendForm(
+        "service_mmcnb7s",
+        "template_52btwp1",
+        form.current,
+        "zlUHzRA_SthDAYjqG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('email send successfully' );
+
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    form.current.reset();
+  };
+
   return (
     <div className={styles.email_container} id="email">
       <h1>Get in Toucch</h1>
@@ -15,12 +42,12 @@ export default function Email() {
             Dont like forms? send me an <span>email</span>
           </p>
         </div>
-        <form>
-          <input placeholder="Your name"></input>
-          <input placeholder="Email address"></input>
-          <input placeholder="Subject"></input>
-          <textarea placeholder="Message"></textarea>
-          <Button name="Send Message" />
+        <form ref={form}>
+          <input placeholder="Your name" type="text" name="name"></input>
+          <input placeholder="Email address" type="email" name="email"></input>
+          <input placeholder="Subject" type="text" name="subject"></input>
+          <textarea placeholder="Message" type="text" name="message"></textarea>
+          <Button name="Send Message" onPress_func={sendEmail} />
         </form>
       </div>
     </div>
