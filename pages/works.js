@@ -33,7 +33,7 @@ const Works = () => {
           download="https://cafebazaar.ir/app/com.scanqrcode"
           video="https://drive.google.com/file/d/1oWtT4Krg-OgnAaAjqzkAikV1EYPJY87z/view?usp=sharing"
           image={"wallet.svg"}
-          name="Smart City"
+          name="wallet"
         />
         {show ? (
           <>
