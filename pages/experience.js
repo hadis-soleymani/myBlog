@@ -15,12 +15,12 @@ export default function Experience() {
             date="2002-2014"
             title="Academic Degree"
             icon="Academi"
-            description="I have a bachlor degree in electronics from Hormuzgan University ."
           />
           <Experience_card
             date="2014-2019"
             title="Bachlors Degree"
             icon="Academi"
+            description="I have a bachlor degree in electronics from Hormuzgan University ."
           />
         </div>
         <div className={styles.card_container}>
