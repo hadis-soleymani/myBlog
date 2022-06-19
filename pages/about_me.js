@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 //styles
 import styles from "../styles/about_me.module.css";
 import Image from "next/image";
@@ -10,11 +12,11 @@ import Button from "./button";
 
 export default function AboutMe() {
   return (
-    <div className={styles.container} id="about_me" >
-      <h1 >About me</h1>
+    <div className={styles.container} id="about_me">
+      <h1>About me</h1>
 
       <div className={styles.Ttemscontainer}>
-      <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
+        <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
         <section>
           <div className={styles.resume}>
             <p>
@@ -22,7 +24,13 @@ export default function AboutMe() {
               electronics from Hormuzgan University. I work as a mobile
               application and front-end developer.
             </p>
-            <Button name="Download CV" />
+            <Button>
+              <Link href="https://drive.google.com/file/d/1ieiRKiHLGQg4xgelZt_C1waOEn7_k_Lm/view?usp=sharing">
+                <a target="_blank" rel="noreferrer">
+                  Download Resume
+                </a>
+              </Link>
+            </Button>
           </div>
 
           <div className={styles.progressContainer}>

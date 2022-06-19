@@ -1,10 +1,10 @@
 //styles
 import styles from "../styles/button.module.css";
 
-const Button = ({ name, onPress_func }) => {
+const Button = ({ name, onPress_func,children }) => {
   return (
     <button onClick={onPress_func} className={styles.button}>
-      {name}
+      {children} {name}
     </button>
   );
 };
