@@ -13,7 +13,7 @@ align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: column;
-padding: 1rem;
+padding: 1rem 0 4rem 0;
 margin:1.3rem;
 color: ${(props) => props.color};
 background-color: ${(props) => props.bgcolor}; 
@@ -37,10 +37,6 @@ export default function Service_card(props) {
     >
       <Image src={`/${props.image}`} alt="avatar" width={170} height={170} />
       <h2>{props.title}</h2>
-      <p>
-        Sit non fugiat aliquip id et irure. Occaecat velit in reprehenderit nisi
-        officia commodo in adipisicing mollit sint dolore.
-      </p>
     </Div>
   );
 }
