@@ -44,7 +44,7 @@
   left: 6vw;
   opacity: 0;
   border-radius: 50px;
-  animation: stone 5s ease 0s infinite;
+  animation: stone 4s ease 0s infinite;
 }
 @keyframes stone {
   from {
@@ -62,7 +62,7 @@
   top: 10vh;
   left: 45vw;
   animation-delay: 0.3s;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 .stone:nth-child(3) {
   top: 30vh;
@@ -86,13 +86,13 @@
   top: 45vh;
   left: 80vw;
   animation-delay: 0.1s;
-  animation-duration: 5s;
+  animation-duration: 1s;
 }
 .stone:nth-child(7) {
   top: 30vh;
   left: 90vw;
   animation-delay: 0.1;
-  animation-duration: 5s;
+  animation-duration: 2s;
 }
 .stone:nth-child() {
   background-image: linear-gradient(to top, #384fde, transparent);
