@@ -13,6 +13,16 @@ export default function Home() {
   return (
     <div className={styles.container} id="home">
       <div className={styles.ItemsContainer}>
+        
+        {/* stons animation */}
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+        <div className={styles.stone} />
+
         <Image src="/avatar.svg" alt="avatar" width={140} height={140} />
         <br />
         <h1>Hadis Soleymani</h1>
