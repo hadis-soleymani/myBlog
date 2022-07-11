@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@ramonak/react-progress-bar": "^5.0.0",
+    "aos": "^3.0.0-beta.6",
     "babel-plugin-styled-components": "^2.0.7",
     "next": "12.1.5",
     "react": "^18.0.0",

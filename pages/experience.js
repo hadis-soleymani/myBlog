@@ -10,7 +10,7 @@ export default function Experience() {
       <h1>Experience</h1>
 
       <div className={styles.cards_container}>
-        <div className={styles.card_container}>
+        <div className={styles.card_container} data-aos="fade-right">
           <Experience_card
             date="2002-2014"
             title="Academic Degree"
@@ -23,7 +23,7 @@ export default function Experience() {
             description="I have a bachlor degree in electronics from Hormuzgan University ."
           />
         </div>
-        <div className={styles.card_container}>
+        <div className={styles.card_container} data-aos="fade-left">
           <Experience_card
             date="2020-2022"
             title="Reactjs"

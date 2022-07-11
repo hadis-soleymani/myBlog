@@ -10,6 +10,7 @@ export default function Services() {
       <h1>Services</h1>
       <div className={styles.cards_container}>
         <Service_card
+        
           title="html , css"
           bgcolor={"rgba(120, 120, 220,.7)"}
           color={"rgb(234, 233, 239)"}

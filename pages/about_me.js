@@ -1,5 +1,8 @@
+import React,{useEffect} from "react";
 import Link from "next/link";
 
+
+// ..
 //styles
 import styles from "../styles/about_me.module.css";
 import Image from "next/image";
@@ -11,11 +14,13 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import Button from "./button";
 
 export default function AboutMe() {
-  return (
-    <div className={styles.container} id="about_me">
-      <h1>About me</h1>
 
-      <div className={styles.Ttemscontainer}>
+  return (
+    <div className={styles.container} id="about_me" >
+      
+      <h1 data-aos="fade-up" data-aos-delay="700">About me</h1>
+
+      <div className={styles.Ttemscontainer} data-aos="flip-right">
         <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
         <section>
           <div className={styles.resume}>

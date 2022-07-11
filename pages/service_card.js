@@ -31,6 +31,7 @@ text-align: center;
 export default function Service_card(props) {
   return (
     <Div
+    data-aos="zoom-in-up"
       className={styles.container}
       color={props.color}
       bgcolor={props.bgcolor}

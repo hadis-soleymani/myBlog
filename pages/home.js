@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 //styles
 import styles from "../styles/home_sec.module.css";
 
@@ -27,7 +28,7 @@ export default function Home() {
         <br />
         <h1>Hadis Soleymani</h1>
         <h3>Reactjs & React Native developer</h3>
-        <div className={styles.iconContainer}>
+        <div className={styles.iconContainer} >
           <FaInstagram />
           <Link
             href="https://linkedin.com/in/hadis-soleymani-730104203/"

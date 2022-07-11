@@ -6,7 +6,7 @@ import styles from "../styles/posts.module.css";
 
 const Post_card = ({ image }) => {
   return (
-    <div className={styles.card_container}>
+    <div className={styles.card_container} data-aos="zoom-in-up">
       <Image src={`/${image}`} alt="avatar" width={200} height={200} />
       <h2>Consequat magna ex minim duis occaecat </h2>
       <p>
