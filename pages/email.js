@@ -39,7 +39,7 @@ export default function Email() {
   return (
     <div className={styles.email_container} id="email">
       <ToastContainer />
-      <h1 data-aos="fade-up">Get in Toucch</h1>
+      <h1 data-aos="fade-up">Send me an email</h1>
       <div className={styles.item_container}>
         <div className={styles.paragraph_container}>
           <h2>Lets talk about everything!</h2>
