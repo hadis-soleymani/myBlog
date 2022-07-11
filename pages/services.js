@@ -7,7 +7,7 @@ import Service_card from "./service_card";
 export default function Services() {
   return (
     <div className={styles.services} id="services">
-      <h1>Services</h1>
+      <h1 data-aos="fade-up">Services</h1>
       <div className={styles.cards_container}>
         <Service_card
         

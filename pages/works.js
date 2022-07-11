@@ -15,7 +15,7 @@ const Works = () => {
 
   return (
     <div className={styles.works_container} id="works">
-      <h1>Works</h1>
+      <h1 data-aos="fade-up">Works</h1>
       <div className={styles.cards_container}>
         <Work_card
           image={"plant.svg"}

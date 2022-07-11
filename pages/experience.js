@@ -7,7 +7,7 @@ import Experience_card from "./experience-card";
 export default function Experience() {
   return (
     <div className={styles.container} id="experience">
-      <h1>Experience</h1>
+      <h1 data-aos="fade-up">Experience</h1>
 
       <div className={styles.cards_container}>
         <div className={styles.card_container} data-aos="fade-right">

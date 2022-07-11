@@ -18,10 +18,10 @@ export default function AboutMe() {
   return (
     <div className={styles.container} id="about_me" >
       
-      <h1 data-aos="fade-up" data-aos-delay="700">About me</h1>
+      <h1 data-aos="fade-up" >About me</h1>
 
       <div className={styles.Ttemscontainer} data-aos="flip-right">
-        <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
+        <Image src="/avatar.svg" alt="avatar" width={150} height={150} data-aos="zoom-in"/>
         <section>
           <div className={styles.resume}>
             <p>

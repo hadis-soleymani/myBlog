@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.stone} />
         <div className={styles.stone} />
 
-        <Image src="/avatar.svg" alt="avatar" width={140} height={140} />
+        <Image src="/avatar.svg" alt="avatar" width={140} height={140} data-aos="zoom-in"/>
         <br />
         <h1>Hadis Soleymani</h1>
         <h3>Reactjs & React Native developer</h3>
