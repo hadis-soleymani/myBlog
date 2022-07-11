@@ -29,7 +29,6 @@ export default function Home() {
         <h1>Hadis Soleymani</h1>
         <h3>Reactjs & React Native developer</h3>
         <div className={styles.iconContainer} >
-          <FaInstagram />
           <Link
             href="https://linkedin.com/in/hadis-soleymani-730104203/"
             passHref={true}
@@ -38,8 +37,6 @@ export default function Home() {
               <AiOutlineLinkedin />
             </a>
           </Link>
-          <TbBrandTelegram />
-          <FaWhatsapp />
           <Link href="https://github.com/hadis-soleymani/" passHref={true}>
             <a target="_blank" rel="noreferrer">
               <AiFillGithub />
