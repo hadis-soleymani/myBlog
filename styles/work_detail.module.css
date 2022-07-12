@@ -1,0 +1,10 @@
+.container{
+    direction: "ltr";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sliders_container{
+width: fit-content;
+}
