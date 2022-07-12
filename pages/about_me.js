@@ -11,7 +11,7 @@ import Image from "next/image";
 import ProgressBar from "@ramonak/react-progress-bar";
 
 //components
-import Button from "./button";
+import Button from "../components/button";
 
 export default function AboutMe() {
 

@@ -5,7 +5,7 @@ import styles from "../styles/works.module.css";
 
 //components
 import Work_card from "./work_card";
-import Button from "./button";
+import Button from "../components/button";
 
 const Works = () => {
   const [show, setShow] = useState(false);

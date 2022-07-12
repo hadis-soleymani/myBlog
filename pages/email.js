@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import styles from "../styles/email.module.css";
 
 //components
-import Button from "./button";
+import Button from "../components/button.js";
 
 //Toast
 import { ToastContainer, toast } from "react-toastify";
