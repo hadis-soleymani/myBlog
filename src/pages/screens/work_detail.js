@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Slider from "react-styled-carousel";
-import Slide_card from "./slide_card";
-import styles from "../styles/work_detail.module.css";
+
+import styles from "./work_detail.module.css";
 
 const Work_detail = () => {
   return (

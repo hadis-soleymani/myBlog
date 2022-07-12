@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
 //styles
 import styles from "./about_me.module.css";
 import Image from "next/image";
-
 //libraries
 import ProgressBar from "@ramonak/react-progress-bar";
 
@@ -12,11 +12,11 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import Button from "../shared/button";
 
 export default function AboutMe() {
-
+  const router = useRouter()
   return (
     <div className={styles.container} id="about_me" >
       
-      <h1 data-aos="fade-up" >About me</h1>
+      <h1 data-aos="fade-up" onClick={() => router.push('/screens/work_detail')}>About me</h1>
 
       <div className={styles.Ttemscontainer} data-aos="flip-right">
         <Image src="/avatar.svg" alt="avatar" width={150} height={150} />

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Landing_page from "../components/pages/landing_page";
+import Landing_page from "./screens/landing_page";
 
 export default function App() {
   return (
