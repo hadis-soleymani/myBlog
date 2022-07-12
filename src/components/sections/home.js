@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 //styles
 import styles from "./home_sec.module.css";
 
@@ -12,7 +11,6 @@ export default function Home() {
   return (
     <div className={styles.container} id="home">
       <div className={styles.ItemsContainer}>
-        
         {/* stons animation */}
         <div className={styles.stone} />
         <div className={styles.stone} />
@@ -22,11 +20,14 @@ export default function Home() {
         <div className={styles.stone} />
         <div className={styles.stone} />
 
-        <Image src="/avatar.svg" alt="avatar" width={140} height={140} data-aos="zoom-in"/>
+        <div data-aos="zoom-in">
+          <Image src="/avatar.svg" alt="avatar" width={140} height={140} />
+        </div>
+
         <br />
         <h1>Hadis Soleymani</h1>
         <h3>Reactjs & React Native developer</h3>
-        <div className={styles.iconContainer} >
+        <div className={styles.iconContainer}>
           <Link
             href="https://linkedin.com/in/hadis-soleymani-730104203/"
             passHref={true}
