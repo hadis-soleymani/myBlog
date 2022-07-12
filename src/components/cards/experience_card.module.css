@@ -1,0 +1,25 @@
+.icon_date_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #6e767c;
+}
+.icon_date_container svg {
+  position: absolute;
+  left: -1rem;
+}
+.icon_date_container p {
+  padding-left: 2rem;
+  color: #6e767c;
+  width: 400px;
+}
+.detail_container {
+  border-left: 1px solid rgb(241, 65, 86);
+  padding: 1rem;
+  color: #6e767c;
+  font-size: 0.8rem;
+}
+.detail_container h2 {
+  color: #42474b;
+  font-size: 1.1rem;
+}

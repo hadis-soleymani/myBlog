@@ -1,5 +1,3 @@
-//styles
-import styles from "../styles/services.module.css";
 import Image from "next/image";
 
 //libraries
@@ -32,7 +30,6 @@ export default function Service_card(props) {
   return (
     <Div
     data-aos="zoom-in-up"
-      className={styles.container}
       color={props.color}
       bgcolor={props.bgcolor}
     >

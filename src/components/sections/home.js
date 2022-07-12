@@ -3,12 +3,10 @@ import Link from "next/link";
 
 
 //styles
-import styles from "../styles/home_sec.module.css";
+import styles from "./home_sec.module.css";
 
 //Icons
-import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineLinkedin, AiFillGithub } from "react-icons/ai";
-import { TbBrandTelegram } from "react-icons/tb";
 
 export default function Home() {
   return (

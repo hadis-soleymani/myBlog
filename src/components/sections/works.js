@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 //styles
-import styles from "../styles/works.module.css";
+import styles from "./works.module.css";
 
 //components
-import Work_card from "./work_card";
-import Button from "../components/button";
+import Work_card from "../cards/work_card";
+import Button from "../shared/button";
 
 const Works = () => {
   const [show, setShow] = useState(false);

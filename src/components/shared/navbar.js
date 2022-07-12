@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //styles
-import styles from "../styles/navbar.module.css";
+import styles from "./navbar.module.css";
 
 //libraries
 import styled from "styled-components";

@@ -1,0 +1,25 @@
+
+.card_container {
+    width: 280px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    margin: 1.3rem;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px #cbced1;
+    color: #42474b;
+  }
+  .card_container h2 {
+    font-size: 1.1rem;
+  }
+  .card_container p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .card_container span {
+    color: rgba(241, 65, 86, 0.7);
+    font-size: 0.8rem;
+  }

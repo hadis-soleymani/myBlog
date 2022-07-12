@@ -1,17 +1,15 @@
-import React,{useEffect} from "react";
+import React from "react";
 import Link from "next/link";
 
-
-// ..
 //styles
-import styles from "../styles/about_me.module.css";
+import styles from "./about_me.module.css";
 import Image from "next/image";
 
 //libraries
 import ProgressBar from "@ramonak/react-progress-bar";
 
 //components
-import Button from "../components/button";
+import Button from "../shared/button";
 
 export default function AboutMe() {
 

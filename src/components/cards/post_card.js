@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 //styles
-import styles from "../styles/posts.module.css";
+import styles from "./post_card.module.css";
 
 const Post_card = ({ image }) => {
   return (

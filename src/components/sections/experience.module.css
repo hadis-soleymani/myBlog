@@ -1,9 +1,9 @@
-.works_container {
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.works_container h1 {
+.container h1 {
   font-size: 1.3rem;
   width: 92vw;
   text-align: left;
@@ -14,39 +14,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 4rem;
 }
-
-/* one card style */
 .card_container {
-  width: 300px;
+  width: 450px;
   border-radius: 16px;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin: 1.3rem;
+  padding: 1.5rem;
   background-color: #fff;
   box-shadow: 3px 3px 10px #cbced1;
+  margin: 1.3rem;
 }
-.card_container h2 {
-  color: #42474b;
-  font-size: 1.1rem;
+
+@media (max-width: 768px) {
+  .card_container {
+    width: 80vw;
+  }
+  .icon_date_container p {
+    width: 70vw;
+  }
 }
-.card_container a{
-  text-align: left;
-  width: 100%;
-  font-size: .8rem;
-  font-weight: 600;
-  color: #0969da;
-  padding: .5rem 0;
-}
-.card_container a:hover{
-  color: #054b9b;
-}
+
 @media (max-width: 1200px){
-  .works_container h1 {
+  .container h1 {
     padding: 3rem 0 0 0;
     margin-bottom: 0;
   }

@@ -1,8 +1,8 @@
 //styles
-import styles from "../styles/experience.module.css";
+import styles from "./experience.module.css";
 
 //components
-import Experience_card from "./experience-card";
+import Experience_card from "../cards/experience-card";
 
 export default function Experience() {
   return (

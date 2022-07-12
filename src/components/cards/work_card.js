@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 //styles
-import styles from "../styles/works.module.css";
+import styles from "./work_card.module.css";
 
 const Work_card = ({ image, name, video, git, download }) => {
   return (

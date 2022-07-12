@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 //styles
-import styles from "../styles/email.module.css";
+import styles from "./email.module.css";
 
 //components
-import Button from "../components/button.js";
+import Button from "../shared/button";
 
 //Toast
 import { ToastContainer, toast } from "react-toastify";
