@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 //styles
@@ -10,14 +10,16 @@ import Button from "../shared/button";
 
 const Works = ({ allPortfolioData }) => {
   const [show, setShow] = useState(false);
+
+  //To prevent the entry of undefine props
   const [isBrowser, setIsBrowser] = useState(false);
+  useEffect(() => setIsBrowser(true), []);
+
   const show_more = () => {
     setShow(!show);
   };
 
-  useEffect(() => setIsBrowser(true), []);
-
-  return isBrowser ?  (
+  return isBrowser ? (
     <div className={styles.works_container} id="works">
       <h1 data-aos="fade-up">Works</h1>
 
@@ -29,7 +31,7 @@ const Works = ({ allPortfolioData }) => {
 
       <Button name="Show more" onPress_func={show_more} />
     </div>
-  ):null;
+  ) : null;
 };
 
 export default Works;
