@@ -15,7 +15,11 @@ const Work_card = ({ img, name, width }) => {
           width={width}
           height={180}
           layout="fixed"
-          style={{ borderTopLeftRadius: "1rem", borderTopRightRadius: "1rem",zIndex:-2 }}
+          style={{
+            borderTopLeftRadius: "1rem",
+            borderTopRightRadius: "1rem",
+            zIndex: -2,
+          }}
         />
       </div>
       <h2>{name}</h2>

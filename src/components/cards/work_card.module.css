@@ -1,81 +1,62 @@
-
 .card_container {
-    width: 300px;
-    border-radius: 16px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding:0 0 2rem 0;
-    margin: 1.3rem;
-    background-color: #fff;
-    box-shadow: 3px 3px 10px #cbced1;
-    position: relative;
-    z-index: 1;
-  }
-  .card_container:before {
-    content: "";
-    position: absolute;
-    background-color: rgba(68, 67, 112,.7);;
-    top: 100%;
-    width: 100%;
-    left: auto;
-    height: 0;
-    z-index: -1;
-    opacity: 0.9;
-    color: #42474b;
-    transition: all ease 0.5s;
-    border-radius: 1rem;
-  }
-  .card_container:hover > h2 {
-    color: #fff;
-    bottom: 80px;
-    transition: all .5s linear;
-  }
-  
-  .card_container:hover:before {
-    top: 0;
-    height: 100%;
-    width: 100%;
-  }
-/* .card_container:hover+ .card_container h2 {
-    top: -100px;
-    opacity: 1;
-    transition: all 1.5s linear;
-  } */
+  width: 300px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 2rem 0;
+  margin: 1.3rem;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px #cbced1;
+  position: relative;
+  z-index: 1;
+}
+.card_container:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(68, 67, 112, 0.7);
+  top: 100%;
+  width: 100%;
+  left: auto;
+  height: 0;
+  z-index: -1;
+  opacity: 0.9;
+  color: #42474b;
+  transition: all ease 0.5s;
+  border-radius: 1rem;
+}
+.card_container:hover > h2 {
+  color: #fff;
+  bottom: 80px;
+  transition: all 0.5s linear;
+}
+.card_container:hover:before {
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.card_container h2 {
+  color: #42474b;
+  position: relative;
+  bottom: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+.card_container a {
+  text-align: left;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0969da;
+  padding: 0.5rem 0;
+}
+.card_container a:hover {
+  color: #054b9b;
+}
 
-  /* .card_container h2:hover {
-    color: #fff;
-    position: relative;
-   
-  } */
-
-
-
-  .card_container h2 {
-  
-   position: relative;
-    bottom:0;
-    font-size: 1rem;
-    text-align: center;
-    
-  }
-  .card_container a{
-    text-align: left;
-    width: 100%;
-    font-size: .8rem;
-    font-weight: 600;
-    color: #0969da;
-    padding: .5rem 0;
-  }
-  .card_container a:hover{
-    color: #054b9b;
-  }
-
-  .img_container{
-    position: relative;
-border-radius: 1rem;
-    height: 200px;
-    
-  }
-
+.img_container {
+  position: relative;
+  border-radius: 1rem;
+  height: 200px;
+}

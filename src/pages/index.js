@@ -1,5 +1,9 @@
 import Head from "next/head";
+
+//component
 import Landing_page from "./screens/landing_page";
+
+//function
 import { getSortedPortfolioData } from '../lib/portfolio'
 
 export default function App({allPortfolioData}) {
@@ -14,6 +18,8 @@ export default function App({allPortfolioData}) {
     </div>
   );
 }
+
+//get data from md files
 export async function getStaticProps() {
   const allPortfolioData = getSortedPortfolioData();
   return {
