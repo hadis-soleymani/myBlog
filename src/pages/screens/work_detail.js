@@ -10,8 +10,8 @@ const Work_detail = () => {
       <header>
         
       </header>
-      <video width="600" controls>
-        <source src="r.mp4" type="video/mp4" />
+      <video width="600" height='400' controls>
+        <source src="https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657650687/B612_20220529_195149_314_e98swn.mp4" type="video/mp4" />
       </video>
       <div>
         <h2>project</h2>
@@ -26,12 +26,13 @@ const Work_detail = () => {
         pauseOnMouseOver={true}
         infinite={false}
       >
-        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657628512/logo_eo9odn.png" width={150} height={300} /> 
-        <Image src="/2.jpg" width={150} height={300} />
-        <Image src="/3.jpg" width={150} height={300} />
-        <Image src="/4.jpg" width={150} height={300} />
-        <Image src="/5.jpg" width={150} height={300} />
-        <Image src="/6.jpg" width={150} height={300} />
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650345/1_kboe41.jpg" width={150} height={300} /> 
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657644874/2_Copy_n2qaf1.jpg" width={150} height={300} />
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650455/4_buqyzn.jpg" width={150} height={300} />
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650500/5_r7uvp4.jpg" width={150} height={300} />
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650541/6_kkdhvl.jpg" width={150} height={300} />
+        <Image src="https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650576/3_dprl2c.jpg" width={150} height={300} />
+
       </Slider>
     </div>
   );

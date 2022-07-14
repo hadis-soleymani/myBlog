@@ -23,3 +23,9 @@
   color: #42474b;
   font-size: 1.1rem;
 }
+
+@media (max-width: 768px) {
+  .icon_date_container p {
+    width: 70vw;
+  }
+}
