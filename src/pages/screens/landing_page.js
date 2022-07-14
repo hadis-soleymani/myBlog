@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+
 
 //Components
 import Hamburger from '../../components/shared/hamburger';
@@ -14,7 +15,7 @@ import Footer from '../../components/shared/footer';
 
 const Landing_page = ({allPortfolioData}) => {
   return (
-    <>
+    <Fragment>
      <Hamburger />
       <Home />
       <AboutMe />
@@ -24,7 +25,7 @@ const Landing_page = ({allPortfolioData}) => {
       <Posts />
       <Email />
       <Footer />
-    </>
+    </Fragment>
   )
 }
 
