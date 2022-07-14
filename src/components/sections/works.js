@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import Link from 'next/link';
+// import { getSortedPortfolioData } from '../../lib/portfolio';
 //styles
 import styles from "./works.module.css";
 
@@ -7,7 +8,7 @@ import styles from "./works.module.css";
 import Work_card from "../cards/work_card";
 import Button from "../shared/button";
 
-const Works = () => {
+const Works = ({ allPortfolioData }) => {
   const [show, setShow] = useState(false);
   const show_more = () => {
     setShow(!show);
@@ -16,6 +17,19 @@ const Works = () => {
   return (
     <div className={styles.works_container} id="works">
       <h1 data-aos="fade-up">Works</h1>
+      <ul >
+          {allPortfolioData.map(({ id, date, title }) => (
+            <li key={id}>
+             <Link href={`/portfolio/${id}`}>
+    <a>{title}</a>
+  </Link>
+              <br />
+              {id}
+              <br />
+              {date}
+            </li>
+          ))}
+        </ul>
       <div className={styles.cards_container}>
         <Work_card
           image={"plant.svg"}

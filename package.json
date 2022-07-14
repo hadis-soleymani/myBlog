@@ -13,6 +13,7 @@
     "@ramonak/react-progress-bar": "^5.0.0",
     "aos": "^3.0.0-beta.6",
     "babel-plugin-styled-components": "^2.0.7",
+    "gray-matter": "^4.0.3",
     "next": "12.1.5",
     "pure-react-carousel": "^1.28.1",
     "react": "^18.0.0",
@@ -22,6 +23,8 @@
     "react-styled-carousel": "^0.5.1",
     "react-toastify": "^9.0.4",
     "reactstrap": "^9.0.2",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

@@ -14,7 +14,7 @@ const Work_card = ({ image, name, video, git, download }) => {
       {git != null && (
         <Link href={`${git}`}>
           <a target="_blank" rel="noreferrer">
-            Github Code
+            Github 
           </a>
         </Link>
       )}

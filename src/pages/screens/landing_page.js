@@ -12,7 +12,7 @@ import Email from '../../components/sections/email';
 import Footer from '../../components/shared/footer';
 
 
-const Landing_page = () => {
+const Landing_page = ({allPortfolioData}) => {
   return (
     <>
      <Hamburger />
@@ -20,7 +20,7 @@ const Landing_page = () => {
       <AboutMe />
       <Services />
       <Experience />
-      <Works />
+      <Works allPortfolioData={allPortfolioData} />
       <Posts />
       <Email />
       <Footer />
