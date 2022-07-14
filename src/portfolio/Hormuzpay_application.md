@@ -1,6 +1,8 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'E-wallet application'
 date: '2020-01-02'
+poster_image: 'https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657821780/Screenshot_20220714-215833_HormuzPay_edkpkp.jpg'
+width: 130
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

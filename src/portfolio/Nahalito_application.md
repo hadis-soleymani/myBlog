@@ -1,6 +1,8 @@
 ---
-title: 'Hormuzpay management'
-date: '2020-01-21'
+title: 'Plant care application'
+date: '2020-01-01'
+poster_image: 'https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657820379/Screenshot_20220203-152131_nahalito_xksuyx.jpg'
+width: 130
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

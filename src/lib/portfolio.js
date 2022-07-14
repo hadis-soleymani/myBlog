@@ -5,7 +5,7 @@ import { remark } from 'remark' //برای خواندن متن درون یک ف�
 import html from 'remark-html'
 
 //path of portfolio md files
-const portfolioDirectory = path.join(process.cwd(), 'src/pages/portfolio');
+const portfolioDirectory = path.join(process.cwd(), 'src/portfolio');
 
 export function getSortedPortfolioData() {
   // Get file names under /portfolio

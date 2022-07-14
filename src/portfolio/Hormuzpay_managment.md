@@ -1,6 +1,8 @@
 ---
-title: 'rmTwo Fos of Pre-rendering'
-date: '2021-01-01'
+title: 'Hormuzpay management'
+date: '2020-01-21'
+poster_image: 'https://res.cloudinary.com/dzmzdqy8q/image/upload/q_auto:best/v1657820991/Untitled_cleqqt.png'
+width: 300
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
