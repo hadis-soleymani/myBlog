@@ -1,22 +1,48 @@
 ---
-title: 'E-wallet application'
-date: '2020-01-02'
-poster_image: 'https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657821780/Screenshot_20220714-215833_HormuzPay_edkpkp.jpg'
-width: 130
+title: "E-wallet application"
+date: "2020-01-02"
+poster_image: "https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650455/4_buqyzn.jpg"
+width: 110
+video: https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657650687/B612_20220529_195149_314_e98swn.mp4
+pic:
+  [
+    {
+      id: 0,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657644874/2_Copy_n2qaf1.jpg,
+    },
+    {
+      id: 1,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650345/1_kboe41.jpg,
+    },
+    {
+      id: 2,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650455/4_buqyzn.jpg,
+    },
+    {
+      id: 3,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650500/5_r7uvp4.jpg,
+    },
+    {
+      id: 4,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650541/6_kkdhvl.jpg,
+    },
+    {
+      id: 5,
+      width: 150,
+      slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650576/3_dprl2c.jpg,
+    },
+  ]
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
-You can use Static Generation for many types of pages, including:
+- React Native
+- Redux
+- Rest api
+- JWT
+- Mapbox
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
-
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
-
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
-
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
-npm run

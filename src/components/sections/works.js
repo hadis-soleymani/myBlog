@@ -25,7 +25,7 @@ const Works = ({ allPortfolioData }) => {
 
       <div className={styles.cards_container}>
         {allPortfolioData.map(({ id, width, title, poster_image }) => (
-          <Work_card key={id} img={poster_image} name={title} width={width} />
+          <Work_card key={id} img={poster_image} name={title} width={width} route={id}/>
         ))}
       </div>
 

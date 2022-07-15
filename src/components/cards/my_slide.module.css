@@ -1,0 +1,33 @@
+.sliders_container {
+  width: 40vw;
+  background: linear-gradient(-45deg, rgb(68, 67, 112), #fff);
+  box-shadow: 3px 3px 10px #cbced1;
+}
+.image_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 35vw;
+  padding: 1rem;
+  height: calc(300px + 2rem);
+}
+
+/* tablet and small monitor */
+@media (max-width: 1000px) and (min-width: 764px) {
+  .sliders_container {
+    width: 45vw;
+  }
+  .image_container {
+    width: 40vw;
+  }
+}
+
+/* mobile */
+@media (max-width: 764px) {
+  .sliders_container {
+    width: 75vw;
+  }
+  .image_container {
+    width: 70vw;
+  }
+}
