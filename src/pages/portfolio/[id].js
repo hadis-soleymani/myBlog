@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Image from "next/image";
 import styles from "./portfolio.module.css";
 import { getAllPortfolioIds, getPortfolioData } from "../../lib/portfolio";
 import Header from "../../components/shared/header";
@@ -35,6 +36,13 @@ const Portfolio_detail = ({ portfolioData }) => {
        
         <br />
         <div className={styles.html_container} dangerouslySetInnerHTML={{ __html: portfolioData.contentHtml }} />
+
+        <div className={styles.buttons_container}>
+        <Image src='/images/bazar.png' width={100} height={40} layout="fixed"/>
+        <Image src='/images/github.svg' width={50} height={50} />
+        <Image src='/images/google_drive.svg' width={50} height={50} />
+        <Image src='/images/internet.svg' width={50} height={50} />
+        </div>
       </div>
     </Fragment>
   );

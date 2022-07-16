@@ -7,25 +7,25 @@ import styles from "./work_card.module.css";
 
 const Work_card = ({ img, name, width, route }) => {
   return (
-    <Link href={`/portfolio/${route}`}>
-      <div className={styles.card_container} data-aos="zoom-in-up">
-        <div className={styles.img_container}>
-          <Image
-            src={img}
-            alt="avatar"
-            width={width}
-            height={180}
-            layout="fixed"
-            style={{
-              borderTopLeftRadius: "1rem",
-              borderTopRightRadius: "1rem",
-              zIndex: -2,
-            }}
-          />
-        </div>
-        <h2>{name}</h2>
+    <div className={styles.card_container} data-aos="zoom-in-up">
+      <div className={styles.img_container}>
+        <Image
+          src={img}
+          alt="avatar"
+          width={width}
+          height={180}
+          layout="fixed"
+          style={{
+            borderTopLeftRadius: "1rem",
+            borderTopRightRadius: "1rem",
+            zIndex: -2,
+          }}
+        />
       </div>
-    </Link>
+      <Link href={`/portfolio/${route}`}>
+        <h2>{name}</h2>
+      </Link>
+    </div>
   );
 };
 

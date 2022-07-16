@@ -16,7 +16,7 @@
   font-size: 1.3rem;
 }
 .container h1 span {
-  color: rgb(241, 65, 86);
+  color: #f14156;
   padding-left: 10px;
 }
 .container video {
@@ -47,6 +47,17 @@
   text-align: left;
   font-size: 1rem;
 }
+.buttons_container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 4rem 0;
+width: 300px;
+
+}
+
+
+
 
 /* tablet and small monitor */
 @media (max-width: 1000px) and (min-width: 764px) {

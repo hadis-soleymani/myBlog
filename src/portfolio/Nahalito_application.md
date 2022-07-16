@@ -40,7 +40,4 @@ pic:
 ---
 
 - React Native
-- Redux
 - Rest api
-- JWT
-- Mapbox

@@ -29,8 +29,6 @@ pic:
   ]
 ---
 
-- React Native
-- Redux
-- Rest api
-- JWT
-- Mapbox
+- Nextjs
+- Dynamic routes
+- Responsive

@@ -18,8 +18,6 @@ pic:
   
 ---
 
-- React Native
-- Redux
+- Reactjs
+- Responsive
 - Rest api
-- JWT
-- Mapbox
