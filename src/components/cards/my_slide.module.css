@@ -7,8 +7,6 @@
   display: flex;
   width: 35vw;
   padding: 1rem;
-  border-radius: 1rem;
-  border: 1px solid rgb(187, 186, 186);
   height: calc(300px + 2rem);
 }
 
