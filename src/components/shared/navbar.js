@@ -19,7 +19,7 @@ const Ul = styled.ul`
     cursor: pointer;
   }
   li {
-    padding: 1.2vw;
+    padding: .6rem 1.2vw;
     font-size: 1rem;
     font-weight: 600;
   }
