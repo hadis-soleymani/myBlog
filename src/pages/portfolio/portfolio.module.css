@@ -1,18 +1,16 @@
 .container {
   direction: "ltr";
   width: 100vw;
-  padding: 14vh 0 2vh 0;
+  padding: 15vh 0 2vh 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   color: #42474b;
 }
-
 .container h1 {
   width: 100vw;
   padding: 0.5rem 3rem;
   text-align: left;
-
   font-size: 1.3rem;
 }
 .container h1 span {
@@ -47,17 +45,15 @@
   text-align: left;
   font-size: 1rem;
 }
-.buttons_container{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 4rem 0;
-width: 300px;
-
+.buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
 }
-
-
-
+.buttons_container a {
+  padding: 0 1rem;
+}
 
 /* tablet and small monitor */
 @media (max-width: 1000px) and (min-width: 764px) {

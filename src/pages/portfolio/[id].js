@@ -5,6 +5,7 @@ import { getAllPortfolioIds, getPortfolioData } from "../../lib/portfolio";
 import Header from "../../components/shared/header";
 
 import My_slide from "../../components/cards/my_slide";
+import Link from "next/link";
 
 const Portfolio_detail = ({ portfolioData }) => {
   return (
@@ -33,15 +34,61 @@ const Portfolio_detail = ({ portfolioData }) => {
         </video>
         <h1>Technologies used in the project:</h1>
 
-       
         <br />
-        <div className={styles.html_container} dangerouslySetInnerHTML={{ __html: portfolioData.contentHtml }} />
+        <div
+          className={styles.html_container}
+          dangerouslySetInnerHTML={{ __html: portfolioData.contentHtml }}
+        />
 
         <div className={styles.buttons_container}>
-        <Image src='/images/bazar.png' width={100} height={40} layout="fixed"/>
-        <Image src='/images/github.svg' width={50} height={50} />
-        <Image src='/images/google_drive.svg' width={50} height={50} />
-        <Image src='/images/internet.svg' width={50} height={50} />
+          {portfolioData.bazar != null && (
+            <Link href={`${portfolioData.bazar}`}>
+              <a target="_blank" rel="noreferrer">
+                <Image
+                  src="/images/bazar.png"
+                  width={100}
+                  height={40}
+                  layout="fixed"
+                />
+              </a>
+            </Link>
+          )}
+          {portfolioData.github != null && (
+            <Link href={`${portfolioData.github}`}>
+              <a target="_blank" rel="noreferrer">
+                <Image
+                  src="/images/github.svg"
+                  width={50}
+                  height={50}
+                  layout="fixed"
+                />
+              </a>
+            </Link>
+          )}
+          {portfolioData.google_drive != null && (
+            <Link href={`${portfolioData.google_drive}`}>
+              <a target="_blank" rel="noreferrer">
+                <Image
+                  src="/images/google_drive.svg"
+                  width={50}
+                  height={50}
+                  layout="fixed"
+                />
+              </a>
+            </Link>
+          )}
+          {portfolioData.internet != null && (
+            <Link href={`${portfolioData.internet}`}>
+              <a target="_blank" rel="noreferrer">
+                <Image
+                  src="/images/internet.svg"
+                  width={50}
+                  height={50}
+                  layout="fixed"
+                />
+              </a>
+            </Link>
+          )}
         </div>
       </div>
     </Fragment>

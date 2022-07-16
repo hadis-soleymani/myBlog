@@ -1,6 +1,10 @@
 ---
 title: "E-wallet application"
 date: "2020-01-02"
+github: null
+google_drive: https://drive.google.com/file/d/1oWtT4Krg-OgnAaAjqzkAikV1EYPJY87z/view?usp=sharing
+bazar:  https://cafebazaar.ir/app/com.scanqrcode
+internet: null
 poster_image: "https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657650455/4_buqyzn.jpg"
 width: 110
 video: https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657650687/B612_20220529_195149_314_e98swn.mp4
@@ -39,10 +43,8 @@ pic:
   ]
 ---
 
-
 - React Native
 - Redux
 - Rest api
 - JWT
 - Mapbox
-

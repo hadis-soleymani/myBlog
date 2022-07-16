@@ -1,6 +1,10 @@
 ---
 title: "Ticket manager"
 date: "2020-04-01"
+github :  null
+google_drive: https://drive.google.com/file/d/1yTTDOzcG6RhjeuI3o1DT0gyIJZ-c19Uz/view?usp=sharing
+bazar : null
+internet : null
 poster_image: "https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657651194/d1_q2gjcr.png"
 width: 300
 video : https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657651438/desktop_me7xvz.mp4
@@ -15,7 +19,7 @@ pic:
     { id: 6,width : 150 ,  slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657651347/messagemob1_pmbkce.png },
     { id: 7,width : 150 , slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657651347/m3_rq49ss.png },
   ]
-  
+ 
 ---
 
 - Reactjs

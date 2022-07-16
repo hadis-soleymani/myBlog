@@ -1,6 +1,10 @@
 ---
 title: "Hormuzpay management"
 date: "2020-01-21"
+github :  null
+google_drive: https://drive.google.com/file/d/1IuMEVaYsVfla1yabOlhukdx-gUi0F9lm/view?usp=sharing
+bazar : null
+internet : null
 poster_image: "https://res.cloudinary.com/dzmzdqy8q/image/upload/q_auto:best/v1657820991/Untitled_cleqqt.png"
 width: 300
 video: https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657650687/B612_20220529_195149_314_e98swn.mp4
@@ -48,6 +52,7 @@ pic:
       slide_pic_url: https://res.cloudinary.com/dzmzdqy8q/image/upload/v1657656057/2_vmfpw2.png,
     },
   ]
+ 
 ---
 
 - Reactjs
