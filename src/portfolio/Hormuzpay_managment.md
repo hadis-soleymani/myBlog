@@ -7,7 +7,7 @@ bazar : null
 internet : null
 poster_image: "https://res.cloudinary.com/dzmzdqy8q/image/upload/q_auto:best/v1657820991/Untitled_cleqqt.png"
 width: 300
-video: https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657650687/B612_20220529_195149_314_e98swn.mp4
+video: https://res.cloudinary.com/dzmzdqy8q/video/upload/v1657656085/Rec_0004_h1i6x9.mp4
 pic:
   [
     {
