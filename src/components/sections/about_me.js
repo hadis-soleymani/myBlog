@@ -19,7 +19,7 @@ export default function AboutMe() {
       <h1 data-aos="fade-up" onClick={() => router.push('/screens/work_detail')}>About me</h1>
 
       <div className={styles.Ttemscontainer} data-aos="flip-right">
-        <Image src="/avatar.svg" alt="avatar" width={150} height={150} />
+        <Image src="/images/avatar.svg" alt="avatar" width={150} height={150} />
         <section>
           <div className={styles.resume}>
             <p>

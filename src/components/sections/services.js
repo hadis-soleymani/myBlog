@@ -14,12 +14,12 @@ export default function Services() {
           title="html , css"
           bgcolor={"rgba(120, 120, 220,.7)"}
           color={"rgb(234, 233, 239)"}
-          image={"mob.png"}
+          image={"images/mob.png"}
         />
         <Service_card
           title="reactjs developer"
           className={styles.Yellow}
-          image={"web.png"}
+          image={"images/web.png"}
           color={"#42474b"}
           bgcolor={"rgb(250, 210, 77)"}
         />
@@ -27,7 +27,7 @@ export default function Services() {
           title="react native developer"
           bgcolor={"rgb(235, 84, 102)"}
           color={"rgb(234, 233, 239)"}
-          image={"design.png"}
+          image={"images/design.png"}
         />
       </div>
     </div>

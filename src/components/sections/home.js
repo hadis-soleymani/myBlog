@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.stone} />
 
         <div data-aos="zoom-in">
-          <Image src="/avatar.svg" alt="avatar" width={140} height={140} />
+          <Image src="/images/avatar.svg" alt="avatar" width={140} height={140} />
         </div>
 
         <br />

@@ -1,0 +1,9 @@
+{
+    "theme_color" : "#000",
+    "background_color" : "#fff",
+    "display" : "standalone",
+    "scope" : "/",
+    "start_url" : "/",
+    "name" : "my-Blog",
+    "short_name" : "my-Blog"
+    }
