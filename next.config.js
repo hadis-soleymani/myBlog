@@ -11,13 +11,14 @@
 // }
 // module.exports = nextConfig
 
-const withPWA = require("next-pwa");
+const withPWA = require('next-pwa')
+const runtimeCaching = require('next-pwa/cache')
+
 
 module.exports = withPWA({
   pwa: {
-    dest: "public",
-    register: true,
-    skipWaiting: true,
+    dest: 'public',
+    runtimeCaching,
   },
   reactStrictMode: true,
   //for external images must add domain
