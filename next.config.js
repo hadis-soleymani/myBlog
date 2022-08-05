@@ -17,12 +17,9 @@ const runtimeCaching = require("next-pwa/cache");
 
 module.exports = withPWA({
   pwa: {
-		//dest: "public",
-		register: true,
-		skipWaiting: true,
-		runtimeCaching,
-		buildExcludes: [/middleware-manifest.json$/]
-	},
+    dest: 'public',
+    register: true,
+  },
   reactStrictMode: true,
   //for external images must add domain
   images: {
