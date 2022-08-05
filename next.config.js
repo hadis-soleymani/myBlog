@@ -17,10 +17,10 @@ const withPWA = require('next-pwa')
 
 module.exports = withPWA({
   pwa: {
-    dest: "public",
+    disable: process.env.NODE_ENV === 'development',
+    // dest: 'public', // comment out this line
     register: true,
-    skipWaiting: true,
-  //  disable: process.env.NODE_ENV === 'development',
+    sw: '/sw.js'
   },
   reactStrictMode: true,
   //for external images must add domain
