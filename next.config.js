@@ -19,9 +19,7 @@ module.exports = withPWA({
   pwa: {
     dest: "public",
 		register: true,
-		skipWaiting: true,
-		runtimeCaching,
-		buildExcludes: [/middleware-manifest.json$/]
+		disable: process.env.NODE_ENV === "development",
   },
   reactStrictMode: true,
   //for external images must add domain
