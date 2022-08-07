@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 //styles
-import styles from "./works.module.css";
+import styles from "./portfolio.module.css";
 
 //components
-import Work_card from "../cards/work_card";
+import Portfolio_card from "../cards/portfolio_card";
 import Button from "../shared/button";
 
-const Works = ({ allPortfolioData }) => {
+const Portfolio = ({ allPortfolioData }) => {
   const [show, setShow] = useState(false);
 
   //To prevent the entry of undefine props
@@ -20,12 +20,12 @@ const Works = ({ allPortfolioData }) => {
   };
 
   return isBrowser ? (
-    <div className={styles.works_container} id="works">
-      <h1 data-aos="fade-up">Works</h1>
+    <div className={styles.portfolio_container} id="portfolio">
+      <h1 data-aos="fade-up">Portfolio</h1>
 
       <div className={styles.cards_container}>
         {allPortfolioData.map(({ id, width, title, poster_image }) => (
-          <Work_card key={id} img={poster_image} name={title} width={width} route={id}/>
+          <Portfolio_card key={id} img={poster_image} name={title} width={width} route={id}/>
         ))}
       </div>
 
@@ -34,4 +34,4 @@ const Works = ({ allPortfolioData }) => {
   ) : null;
 };
 
-export default Works;
+export default Portfolio;

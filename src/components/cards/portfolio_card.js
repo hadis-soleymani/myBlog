@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 //styles
-import styles from "./work_card.module.css";
+import styles from "./portfolio_card.module.css";
 
-const Work_card = ({ img, name, width, route }) => {
+const Portfolio_card = ({ img, name, width, route }) => {
   return (
     <div className={styles.card_container} data-aos="zoom-in-up">
       <div className={styles.img_container}>
@@ -29,4 +29,4 @@ const Work_card = ({ img, name, width, route }) => {
   );
 };
 
-export default Work_card;
+export default Portfolio_card;

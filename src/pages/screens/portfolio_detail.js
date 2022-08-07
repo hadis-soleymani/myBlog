@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Slider from "react-styled-carousel";
 
-import styles from "./work_detail.module.css";
+import styles from "./portfolio_detail.module.css";
 
-const Work_detail = () => {
+const Portfolio_detail = () => {
   return (
     <div className={styles.container}>
       <header>
@@ -38,4 +38,4 @@ const Work_detail = () => {
   );
 };
 
-export default Work_detail;
+export default Portfolio_detail;

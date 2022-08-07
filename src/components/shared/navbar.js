@@ -59,7 +59,7 @@ export default function Navbar({ open }) {
     Services: false,
     AboutMe: false,
     Expriences: false,
-    Works: false,
+    Portfolio: false,
     Blog: false,
     ContactUs: false,
   });
@@ -119,13 +119,13 @@ export default function Navbar({ open }) {
         </li>
         <li>
           <Link
-            to="works"
+            to="portfolio"
             spy={true}
             className={clicked.Works ? styles.active_item : null}
             onClick={clickedItem}
             smooth={true}
           >
-            Works
+            Portfolio
           </Link>
         </li>
         <li>

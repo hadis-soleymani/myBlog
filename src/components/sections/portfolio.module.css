@@ -1,9 +1,9 @@
-.works_container {
+.portfolio_container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.works_container h1 {
+.portfolio_container h1 {
   font-size: 1.3rem;
   width: 92vw;
   text-align: left;
@@ -19,7 +19,7 @@
 
 
 @media (max-width: 1200px){
-  .works_container h1 {
+  .portfolio_container h1 {
     padding: 3rem 0 0 0;
     margin-bottom: 0;
   }
