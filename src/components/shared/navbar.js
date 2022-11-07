@@ -6,7 +6,7 @@ import styles from "./navbar.module.css";
 //libraries
 import styled from "styled-components";
 import { Link } from "react-scroll";
-
+ 
 //styled components
 const Ul = styled.ul`
   list-style: none;
